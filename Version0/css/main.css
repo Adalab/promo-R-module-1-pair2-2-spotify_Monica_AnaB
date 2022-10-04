@@ -1,0 +1,247 @@
+:root{
+  --primary-color: #1d75de;
+}
+
+/*html {
+  font-size: 62.5%;
+}*/
+
+.body {
+font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+.header {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  position: sticky;
+  top: 0;
+}
+.image-menu {
+    height: 30px;
+    margin-right: 20px;
+}
+.main {
+}
+/*START Blue Section*/
+.blue-section {
+  background-color: var(--primary-color);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: end;
+  padding: 30px;
+}
+
+.title-blue {
+    font-size: 50px;
+    font-weight: bolder;
+    /*width: 90%;*/
+    line-height: 60px;
+    margin-top: 150px;
+}
+.subtitle-blue {
+    font-size: 28px;
+    font-weight: 500;
+    /*width: 90%;*/
+    word-spacing: 0.1px;
+    letter-spacing: 0.1px;
+    line-height: 40px;
+
+}
+.button {
+  background-color: #27b65a;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 20px;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.conditions {
+  font-size: 13px;
+  font-weight: 400;
+  /*width: 90%;*/
+  margin-bottom: 30px;
+  line-height: 20px;
+}
+
+/*START White Section*/
+
+.white-section {
+  background-color: white;
+  color: black;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 130px;
+}
+
+.title-white{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  width: 90%;
+  line-height: 60px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.white-section-item {
+  display: flex;
+  align-items: center;
+  width: 90%;
+
+}
+
+.white-section-icon{
+  height: 130px;
+  margin-left: 20px;
+}
+
+.white-section-text{
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.white-section-text-title{
+  font-size: 25px;
+  font-weight: 700;
+  word-spacing: 0.1px;
+  letter-spacing: 0.1px;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+
+.white-section-text-subtitle{
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.footer {
+  background-color: black;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--text-color);
+}
+.header .link {
+  font-weight: bold;
+}
+
+.logo-spotify {
+  height: 30px;
+  display: inline-block;
+  margin-left: 20px;
+}
+.menu-item {
+  display: inline-block;
+  align-items: flex-end;
+}
+.menu {
+  text-align: right;
+  max-width: fit-content;
+}
+.footer {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 15px;
+}
+.footer nav {
+  align-self: flex-end;
+}
+.footer p {
+  margin: 8px;
+}
+.flag {
+  width: 30px;
+}
+.footer-espania {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer-espania2019 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.menu-list {
+  display:none;
+}
+
+@media all and (min-width:480px){
+  .image-menu{
+    display:none;
+  
+  }
+  .menu-list{
+    display: flex;
+    font-size: 12px;
+    gap: 10px;
+    margin-right: 10px;
+  }
+  .button{
+    width: 250px;
+    border-radius: 30px;
+    align-self: flex-start;
+    margin-left: ;
+  }
+
+  .blue-section{
+    background-image: url(../images/premium_dancer.png);
+    background-size: 480px;
+    min-height: 600px;
+    gap: 50px;
+    padding: 50px;
+
+  }
+  .title-blue{
+    font-size: 70px;
+    line-height: 90px;
+    font-weight: 900;
+  }
+  .subtitle-blue{
+    font-weight: 700;
+  }
+
+}
+
+@media all and (min-width:1000px){
+  .title-blue{
+    font-size: 90px;
+  }
+  .subtitle-blue{
+    font-size: 32px;
+  }
+
+  .blue-section{
+    align-items: flex-start;
+  }
+}
