@@ -1,0 +1,48 @@
+.blue-section {
+    background-color: $primaryColor;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: end;
+    padding: 30px;
+  }
+  
+  .title-blue {
+      font-size: 50px;
+      font-weight: bolder;
+      /*width: 90%;*/
+      line-height: 60px;
+      margin-top: 150px;
+  }
+  .subtitle-blue {
+      font-size: 28px;
+      font-weight: 500;
+      /*width: 90%;*/
+      word-spacing: 0.1px;
+      letter-spacing: 0.1px;
+      line-height: 40px;
+  
+  }
+  .button {
+    background-color: #27b65a;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 20px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+  .conditions {
+    font-size: 13px;
+    font-weight: 400;
+    /*width: 90%;*/
+    margin-bottom: 30px;
+    line-height: 20px;
+  }
+  

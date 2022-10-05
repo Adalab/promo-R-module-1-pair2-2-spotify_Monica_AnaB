@@ -1,5 +1,14 @@
-.page__header {
+.header {
+  background-color: black;
+  color: white;
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  position: sticky;
+  top: 0;
+}
+.image-menu {
+    height: 30px;
+    margin-right: 20px;
 }

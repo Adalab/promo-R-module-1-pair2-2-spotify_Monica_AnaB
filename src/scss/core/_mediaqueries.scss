@@ -1,0 +1,55 @@
+@media all and (min-width:480px){
+    .image-menu{
+      display:none;
+    
+    }
+    .menu-list{
+      display: flex;
+      font-size: 12px;
+      gap: 10px;
+      margin-right: 10px;
+    }
+    .button{
+      width: 250px;
+      border-radius: 30px;
+      align-self: flex-start;
+    }
+  
+    .blue-section{
+      background-image: url(../images/premium_dancer.png);
+      background-size: 480px;
+      min-height: 600px;
+      gap: 50px;
+      padding: 50px;
+  
+    }
+    .title-blue{
+      font-size: 70px;
+      line-height: 90px;
+      font-weight: 900;
+    }
+    .subtitle-blue{
+      font-weight: 700;
+    }
+    
+    .white-section{
+        justify-content: space-around;
+    }
+
+    .white-section-item{
+        width: 40%;
+    }
+  }
+  
+  @media all and (min-width:1000px){
+    .title-blue{
+      font-size: 90px;
+    }
+    .subtitle-blue{
+      font-size: 32px;
+    }
+  
+    .blue-section{
+      align-items: flex-start;
+    }
+  }
