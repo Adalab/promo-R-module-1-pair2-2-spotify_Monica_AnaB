@@ -1,11 +1,17 @@
-@import 'core/variables';
-@import 'core/reset';
-@import 'components/code';
-@import 'components/links';
-@import 'layout/page';
-@import 'layout/header';
-@import 'layout/hero';
-@import 'layout/white-section';
-@import 'layout/footer';
-@import 'pages/index';   
-@import 'core/mediaqueries';                
+@import "core/variables";
+@import "core/reset";
+@import "components/code";
+@import "components/links";
+@import "layout/page";
+@import "layout/header";
+@import "layout/hero";
+@import "layout/white-section";
+@import "layout/footer";
+@import "pages/index";
+@import "core/mediaqueries";
+
+.signup__logo {
+  width: 100px;
+  background-color: white;
+  mix-blend-mode: darken;
+}

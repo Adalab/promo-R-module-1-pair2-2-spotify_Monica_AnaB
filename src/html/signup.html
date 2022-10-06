@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <script src="https://kit.fontawesome.com/2eec946f56.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Rubik+Dirt&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+</head>
+
+<body>
+    <main>
+        <img class="signup__logo" src="./assets/images/logo_black.png" alt="Logo Spotify">
+        <h1 class="signup__title">Regístrate gratis para escuchar.</h1>
+
+        <div class="signup__button--facebook">
+            <i class="fa-brands fa-facebook fa-lg"></i>
+            <p class="button__text--facebook">Registrarte con Facebook</p>
+        </div>
+
+        <div class="signup__button--google">
+            <i class="fa-brands fa-google fa-lg"></i>
+            <p class="button__text--google">Registrarte con Google</p>
+        </div>
+
+        <div></div>
+        <p>o</p>
+        <form action="https://adalab-server-form.herokuapp.com/" method="post">
+            <fieldset>
+                <legend>Registrarte con tu correo electrónico</legend>
+
+                <label for="email">¿Cuál es tu correo electrónico?</label>
+                <input type="email" name="email" id="email" placeholder="Pon tu correo electrónico." required>
+
+                <label for="emailconfirm">Confirma tu correo electrónico.</label>
+                <input type="email" name="emailconfirm" id="emailconfirm"
+                    placeholder="Vuelve a poner tu correo electrónico." required>
+
+                <label for="pass">Crea una contraseña.</label>
+                <input type="password" name="pass" id="pass" placeholder="Crea una contraseña." required>
+
+                <label for="userName">¿Cómo quieres que te llamemos?</label>
+                <input type="text" name="userName" id="userName" placeholder="Pon un nombre de perfil." required>
+                <small>Esto aparece en tu perfil.</small>
+
+                <label for="birthdate">¿Cuál es tu fecha de nacimiento?</label>
+                <input type="date" name="birthdate" id="birthdate" required>
+
+
+
+
+
+
+            </fieldset>
+        </form>
+    </main>
+
+</body>
+
+</html>
