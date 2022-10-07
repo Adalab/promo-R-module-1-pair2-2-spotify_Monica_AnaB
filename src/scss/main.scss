@@ -7,11 +7,6 @@
 @import "layout/hero";
 @import "layout/white-section";
 @import "layout/footer";
+@import "layout/signup";
 @import "pages/index";
 @import "core/mediaqueries";
-
-.signup__logo {
-  width: 100px;
-  background-color: white;
-  mix-blend-mode: darken;
-}
